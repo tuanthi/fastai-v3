@@ -13,7 +13,8 @@ from fastai.vision import *
 export_file_url = 'https://drive.google.com/uc?export=download&id=1xQSFXDYmzChsgbZxQsIXKiQi-TEn8b5l'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+# classes = ['black', 'grizzly', 'teddys']
+classes = ['BanhMi', 'BoLucLac', 'CanhChua', 'ComChien']
 path = Path(__file__).parent
 
 app = Starlette()
